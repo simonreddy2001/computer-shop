@@ -1,0 +1,40 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+.container {
+    margin: 40px auto;
+} 
+#hiddenLoan, #hiddenBtn {
+    visibility: hidden;
+}
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+      box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .sml-btn{
+    margin-top: 40px;
+      background-color: aqua;  
+  }
+  .sml-btn2{
+    margin-top: 10px;
+      background-color: rgb(228, 116, 108);  
+  }
+  .big-btn{
+    margin-top: 10px;
+      background-color: chartreuse;
+  }
+  .big-btn:hover {background-color: #3e8e41}
+  .sml-btn:hover {background-color: rgb(60, 143, 143)}
+  .sml-btn2:hover {background-color: rgb(60, 143, 143)}
+  

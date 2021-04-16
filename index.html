@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Computer Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Computer Store</h1>
+  <p>Select the computer, Buy, Work, Loan and Pay</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Joe Banker</h3>
+      <p>Balance <span id="bankBalance"> 0.0</span> kr</p>
+            <p id="hiddenLoan">Loan <span id="loanBalance"> </span> kr</p>
+            <button class="sml-btn2" id="hiddenBtn">Clear loan</button><br>
+            <button class="sml-btn2" id="loan">Get a loan</button>
+</div>
+    <div class="col-sm-4">
+      <h3>Work</h3>
+      <p>Pay <span id="workBalance"> 0.0</span> kr</p>
+            <button class="sml-btn" id="sendPay">Bank</button>
+            <button class="sml-btn" id="workPay">Work</button>
+    </div>
+    <div class="col-sm-4">
+      <h3>Laptops</h3>        
+      <select name="laptop" id="laptops"></select>
+            <p class="features">Features:<ul id="specs"></ul></p>
+    </div>
+  </div>
+</div>
+<div class="jumbotron text-center">
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <img id=image src="" alt="computer-image">
+    </div>
+    <div class="col-sm-4">
+      <h3 id="name"></h3>
+      <p id="description"></p>
+    </div>
+    <div class="col-sm-4"> 
+      <h3><span id="price"> </span>Kr</h3>
+            <button class="big-btn" id="buy">BUY NOW</button>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
